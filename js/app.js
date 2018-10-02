@@ -3,3 +3,5 @@ if ("serviceWorker" in window.navigator) {
     window.navigator.serviceWorker.register("sw.js");
   });
 }
+
+fetch('https://httpbin.org/json').then(() => console.log('Request complete!'))

@@ -1,5 +1,6 @@
 /* global process */
-const ASSETS_CACHE = `demo-assets-cache-v1`;
+const VERSION = 'v1';
+const ASSETS_CACHE = `demo-assets-cache-${VERSION}`;
 
 const cacheWhitelist = [ASSETS_CACHE];
 
